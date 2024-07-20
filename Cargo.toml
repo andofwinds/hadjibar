@@ -1,0 +1,13 @@
+[package]
+name = "hadjipanel"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+gtk4-layer-shell = "*"
+chrono = "*"
+battery = "*"
+
+[dependencies.gtk4]
+version = "*"
+features = [ "v4_10" ]
